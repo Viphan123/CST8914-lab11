@@ -50,8 +50,8 @@ button.accordion[aria-expanded="true"] {
   transition: max-height 0.2s ease-in-out;
 }
 
-.accordion:focus {
-  background-color: #e0e0e0; /* Change background color when focused */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.7); /* Add a subtle glow */
-  border-radius: 5px; /* Optional: for a polished look */
+button.accordion:focus {
+  outline: 2px solid #007bff; /* Add a blue outline */
+  outline-offset: 2px;
+  background-color: #e0f7ff; /* Optional: slightly change the background for better visibility */
 }
