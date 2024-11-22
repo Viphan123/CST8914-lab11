@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Accordion</title>
+  <link href="accordion.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>Simple Accordions</h1>
+
+      <button class="accordion" aria-expanded="false" aria-controls="content1">Website Design and Development</button>
+      <div id="content1" class="accordion-content" role="region">
+        <p>
+          Whether you need a WordPress website, a Shopify site, or a custom full-stack application, we got you! 
+          No matter what kind of website or application you need, it will be made with clean and maintainable 
+          code that follows modern development standards. We also have top-notch designers that can make unique 
+          designs to make your website stand out. We also provide 24/7 website maintenance for all the support 
+          you need.
+        </p>
+      </div>
+
+      <button class="accordion" aria-expanded="false" aria-controls="content2">Website Analytics and Performance</button>
+      <div id="content2" class="accordion-content" role="region">
+        <p>
+          To have a successful website, you need to constantly adjust and adapt to the data provided by your website visitors. 
+          We provide basic metric dashboards, detailed analytical reports showing popular sections, and tools to help make 
+          meaningful decisions.
+        </p>
+      </div>
+
+      <button class="accordion" aria-expanded="false" aria-controls="content3">Digital Marketing</button>
+      <div id="content3" class="accordion-content" role="region">
+        <p>
+          Every great website focuses on helping you get more business and building a brand your customers will love. 
+          We offer SEO-focused content strategies, paid ads campaigns, email marketing integration, and social media marketing.
+        </p>
+      </div>
+    </div>
+    <script src="accordion.js"></script>
+  </main>
+</body>
+</html>
